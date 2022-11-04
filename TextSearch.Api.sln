@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSearch.Api", "TextSearch.Api.csproj", "{18E05973-BAD9-4460-BADA-D56F96111E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSearch.Api", "Api\TextSearch.Api.csproj", "{18E05973-BAD9-4460-BADA-D56F96111E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSearch.Shared", "..\TextSearch.Shared\TextSearch.Shared.csproj", "{65F51103-A50C-4A61-A657-E2888C28D1DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSearch.Shared", "TextSearch.Shared\TextSearch.Shared.csproj", "{183ADC03-03B7-422F-84F5-F7A76F0DB48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSearch.Tests", "..\TextSearch.Tests\TextSearch.Tests.csproj", "{1394D242-13C5-4939-83EA-D003D55988F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSearch.Tests", "TextSearch.Tests\TextSearch.Tests.csproj", "{C7EA4859-3912-4690-8841-05A19D4B1E19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{18E05973-BAD9-4460-BADA-D56F96111E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E05973-BAD9-4460-BADA-D56F96111E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E05973-BAD9-4460-BADA-D56F96111E2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65F51103-A50C-4A61-A657-E2888C28D1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65F51103-A50C-4A61-A657-E2888C28D1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65F51103-A50C-4A61-A657-E2888C28D1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65F51103-A50C-4A61-A657-E2888C28D1DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1394D242-13C5-4939-83EA-D003D55988F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1394D242-13C5-4939-83EA-D003D55988F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1394D242-13C5-4939-83EA-D003D55988F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1394D242-13C5-4939-83EA-D003D55988F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183ADC03-03B7-422F-84F5-F7A76F0DB48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183ADC03-03B7-422F-84F5-F7A76F0DB48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183ADC03-03B7-422F-84F5-F7A76F0DB48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183ADC03-03B7-422F-84F5-F7A76F0DB48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EA4859-3912-4690-8841-05A19D4B1E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EA4859-3912-4690-8841-05A19D4B1E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EA4859-3912-4690-8841-05A19D4B1E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EA4859-3912-4690-8841-05A19D4B1E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
